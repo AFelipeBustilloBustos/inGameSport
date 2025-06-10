@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>En Directo - CDE Villanueva del Pardillo</title>
+    
+    <!-- Ícono de la página en formato SVG -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,...">
+    
+    <!-- Conexiones previas para optimizar fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Importación de fuentes de Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Raleway:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Archivos CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/streaming.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="nav-container">
+            <!-- Logo y nombre del club -->
+            <a href="index.html" class="logo">
+                <svg class="logo-svg" viewBox="0 0 512 512" width="40" height="40">
+                    <!-- Contenido del SVG -->
+                </svg>
+                <h1>CDE Villanueva del Pardillo</h1>
+            </a>
+            
+            <!-- Botón para abrir el menú en móviles -->
+            <button class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <!-- Menú de navegación -->
+            <ul class="nav-menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="noticias.html">Noticias</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">Equipo <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="premenjabin.html">Premenjabín</a></li>
+                        <li><a href="benjamin.html">Benjamín</a></li>
+                        <li><a href="alevin.html">Alevín</a></li>
+                        <li><a href="infantil.html">Infantil</a></li>
+                        <li><a href="cadete.html">Cadete</a></li>
+                        <li><a href="juvenil.html">Juvenil</a></li>
+                        <li><a href="senior.html">Senior</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="stream-container">
+            <div class="stream-header">
+                <h2>Partido en Directo</h2>
+                <p class="match-info">CDE Pardillo vs Equipo Visitante</p>
+            </div>
+            
+            <!-- Contenedor del video en streaming -->
+            <div class="video-container">
+                <iframe
+                    src="https://player.twitch.tv/?channel=vdc28691&parent=ingamebb.netlify.app"
+                    frameborder="0"
+                    allowfullscreen="true"
+                    scrolling="no"
+                    height="480"
+                    width="720">
+                </iframe>
+            </div>
+            
+            
+            
+            <!-- Información adicional del partido -->
+            <div class="stream-info">
+                <div class="match-details">
+                    <p class="date">Fecha: <span id="match-date">15 de Marzo 2024</span></p>
+                    <p class="competition">Competición: <span id="competition">Liga Regular</span></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-info">
+                <h4>CDE Villanueva del Pardillo</h4>
+                <p>Dirección: Calle del Deporte, 123</p>
+                <p>Teléfono: 123-456-789</p>
+            </div>
+            
+            <!-- Enlaces a redes sociales -->
+            <div class="social-links">
+                <a href="https://www.instagram.com/cdepardillo/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://x.com/cdevvadelpardi" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com/people/CDE-Villanueva-del-Pardillo/100092534772106/" target="_blank"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script principal -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

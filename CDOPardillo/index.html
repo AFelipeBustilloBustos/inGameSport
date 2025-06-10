@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CDE Villanueva del Pardillo</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><circle fill='%231a1a1a' cx='256' cy='256' r='256'/><path fill='none' stroke='%23ffd700' stroke-width='20' d='M256,76.8l155.8,90v180L256,436.8L100.2,346.8v-180L256,76.8z'/><path fill='none' stroke='%23ffd700' stroke-width='24' d='M156.6,384.3c-23.1-32.8-35.7-71.8-35.7-113.3c0-52.1,20.3-101.1,57.1-137.9c36.8-36.8,85.8-57.1,137.9-57.1c41.5,0,80.5,12.6,113.3,35.7'/></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Raleway:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/modal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="nav-container">
+            <a href="index.html" class="logo">
+                <svg class="logo-svg" viewBox="0 0 512 512" width="40" height="40">
+                    <path class="ball-pattern" d="M156.6,384.3c-23.1-32.8-35.7-71.8-35.7-113.3c0-52.1,20.3-101.1,57.1-137.9
+                        c36.8-36.8,85.8-57.1,137.9-57.1c41.5,0,80.5,12.6,113.3,35.7"/>
+                    <path class="ball-pattern" d="M355.4,127.7c23.1,32.8,35.7,71.8,35.7,113.3c0,52.1-20.3,101.1-57.1,137.9
+                        c-36.8,36.8-85.8,57.1-137.9,57.1c-41.5,0-80.5-12.6-113.3-35.7"/>
+                    <circle class="ball-outline" cx="256" cy="256" r="256"/>
+                    <path class="ball-hexagon" d="M256,76.8l155.8,90v180L256,436.8L100.2,346.8v-180L256,76.8z"/>
+                </svg>
+                <h1>CDE Villanueva del Pardillo</h1>
+            </a>
+            <button class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="noticias.html">Noticias</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">Equipo <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="premenjabin.html">Premenjabín</a></li>
+                        <li><a href="benjamin.html">Benjamín</a></li>
+                        <li><a href="alevin.html">Alevín</a></li>
+                        <li><a href="infantil.html">Infantil</a></li>
+                        <li><a href="cadete.html">Cadete</a></li>
+                        <li><a href="juvenil.html">Juvenil</a></li>
+                        <li><a href="senior.html">Senior</a></li>
+                    </ul>
+                </li>
+                <li id="auth-buttons">
+                    <!-- Los botones de autenticación se insertarán aquí dinámicamente -->
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="hero-content">
+                <h2>CDE Villanueva del Pardillo</h2>
+                <p>Tradición y Excelencia en el Fútbol desde 1950</p>
+                <div class="hero-buttons">
+                    <a href="streaming.html" class="cta-button live-button">
+                        <i class="fas fa-broadcast-tower"></i> EN DIRECTO
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="features-section">
+            <div class="feature-card">
+                <i class="fas fa-trophy"></i>
+                <h3>Palmarés</h3>
+                <p>Una historia de gloria y pasión</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-futbol"></i>
+                <h3>Nuestro Juego</h3>
+                <p>Compromiso con el fútbol de calidad</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-calendar-alt"></i>
+                <h3>Próximos Encuentros</h3>
+                <p>Sigue nuestro camino hacia la victoria</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-info">
+                <h4>CDE Villanueva del Pardillo</h4>
+                <p>Dirección: Av. de los Estudiantes, 1, 28229 Villanueva del Pardillo, Madrid, España</p>
+                <p>Teléfono: +34 664 685 337</p>
+            </div>
+            <div class="social-links">
+                <a href="https://www.instagram.com/cdepardillo/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://x.com/cdevvadelpardi" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com/people/CDE-Villanueva-del-Pardillo/100092534772106/" target="_blank"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html> 
