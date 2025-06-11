@@ -409,7 +409,8 @@ body {
     font-size: 1.1rem;
     opacity: 0.9;
 }
-.value-item > *:first-child {
+
+.value-item > *:not(img) {
     text-align: center !important;
     width: 100%;
     display: block;
@@ -896,7 +897,7 @@ body {
         width: 100% !important;
         height: auto !important;
         max-width: 100vw !important;
-       object-fit: cover !important;
+        object-fit: cover !important;
         display: block;
         margin: 0 auto;
         border-radius: 16px;
