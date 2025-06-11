@@ -872,6 +872,26 @@ body {
     .value-content {
         padding: 1rem !important;
     }
+    .about-image, .image-container {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 auto !important;
+        padding: 0 !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-image img, .image-container img {
+        width: 100% !important;
+        height: auto !important;
+        max-width: 100vw !important;
+        object-fit: contain !important;
+        display: block;
+        margin: 0 auto;
+        border-radius: 16px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        background: #fff;
+    }
 }
 
 .logo-link {
@@ -971,6 +991,9 @@ body {
     }
     .value-content {
         padding: 0.5rem !important;
+    }
+    .about-image img, .image-container img {
+        max-height: 180px !important;
     }
 }
 
