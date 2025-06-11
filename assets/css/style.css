@@ -854,6 +854,24 @@ body {
     .logo span.lema-ingame {
         display: none;
     }
+    .about-values {
+        grid-template-columns: 1fr !important;
+        gap: 1.2rem !important;
+    }
+    .value-item img {
+        width: 100% !important;
+        height: auto !important;
+        max-height: 220px;
+        object-fit: contain !important;
+        display: block;
+        margin: 0 auto;
+    }
+    .value-item {
+        padding: 0.5rem !important;
+    }
+    .value-content {
+        padding: 1rem !important;
+    }
 }
 
 .logo-link {
@@ -947,6 +965,12 @@ body {
     .main-logo {
         width: 28px !important;
         height: 28px !important;
+    }
+    .value-item img {
+        max-height: 160px;
+    }
+    .value-content {
+        padding: 0.5rem !important;
     }
 }
 
